@@ -1,0 +1,39 @@
+%list__item {
+  padding: 15px 20px;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 4px;
+  display: block;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.item {
+  @extend %list__item;
+  color: #856404;
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+
+  .btn__remove {
+    background-color: #ff4444;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+}
+
+.info {
+  @extend %list__item;
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+}

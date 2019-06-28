@@ -1,0 +1,7 @@
+<div *ngFor="let item of toDoList; let i = index" class="list__item item">
+  {{ item }}
+  <a (click)="toDoList.splice(i, 1)" class="btn__remove">Remove</a>
+</div>
+<div *ngIf="toDoList.length == 0" class="list__item info">
+  No items added
+</div>

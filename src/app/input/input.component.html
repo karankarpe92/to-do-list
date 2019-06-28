@@ -1,0 +1,14 @@
+<form [formGroup]="toDoForm" (ngSubmit)="addToDo()">
+  <div align="center">
+    <input
+      type="text"
+      class="text__input"
+      placeholder="Enter new task"
+      formControlName="inputTask"
+      [(ngModel)]="inputTask"
+    />
+  </div>
+  <div>
+    <button type="submit" class="btn__add">Add</button>
+  </div>
+</form>

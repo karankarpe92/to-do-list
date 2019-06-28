@@ -2,8 +2,22 @@
   text-align: center;
 }
 
-.app__content {
-  padding: 2pc 25pc;
+@media only screen and (min-width: 1300px) {
+  .app__content {
+    padding: 2pc 25pc;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1300px) {
+  .app__content {
+    padding: 2pc 10pc;
+  }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 700px) {
+  .app__content {
+    padding: 2pc;
+  }
 }
 
 .app__title {

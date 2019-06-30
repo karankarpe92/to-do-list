@@ -1,6 +1,6 @@
 # ToDoListDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+Live demo here https://karankarpe92.github.io/
 
 ## Development server
 

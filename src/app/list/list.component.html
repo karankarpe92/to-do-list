@@ -2,6 +2,7 @@
   {{ item }}
   <a (click)="toDoList.splice(i, 1)" class="btn__remove">Remove</a>
 </div>
-<div *ngIf="toDoList.length == 0" class="list__item info">
-  No items added
+<div *ngIf="toDoList.length == 0">
+  <label class="label__box">The box is empty. Feed it with some items</label>
+  <img src="assets/images/empty-box.png" />
 </div>
